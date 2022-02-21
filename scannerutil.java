@@ -9,6 +9,7 @@ public class scannerutil {
 
         System.out.println("Enter uid: ");
         int uid = obj.nextInt();
+        obj.close();
 
         System.out.print("Name: " + name + "\n");
         System.out.print("uid: " + uid);

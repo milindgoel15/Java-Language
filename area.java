@@ -17,6 +17,7 @@ public class area {
         
         System.out.print("Enter the value of B: ");
         breadth = obj.nextInt();
+        obj.close();
 
         areaOfRetangle = length * breadth;
         System.out.println("Area of rectangle is: "+areaOfRetangle);
@@ -28,6 +29,8 @@ public class area {
 
         System.out.print("\n\nEnter the value of a: ");
         a = obj.nextInt();
+        obj.close();
+
         areaOfSquare = a * a;
         System.out.println("Area of square is: "+areaOfSquare);
     }
@@ -40,6 +43,8 @@ public class area {
 
         System.out.print("\n\nEnter the value of radius: ");
         radius = obj.nextInt();
+        obj.close();
+        
         areaOfCircle = pi * radius * radius;
         System.out.println("Area of circle is: "+areaOfCircle);
     }
