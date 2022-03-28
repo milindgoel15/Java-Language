@@ -1,0 +1,6 @@
+1. Download eclipse for java developers > install > setup
+2. download mysql workbench > install > setup
+3. Download mysql connector and extract jar
+4. open workbench > create table 
+5. open eclipse > open build path > go to libraries > select classpath > add connector.jar file without renaming > apple and close
+6. Connection done
